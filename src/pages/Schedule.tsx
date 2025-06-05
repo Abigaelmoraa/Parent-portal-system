@@ -35,24 +35,24 @@ const Schedule = () => {
 
   const schedule = [
     { day: "Monday", classes: [
-      { time: "8:00 AM - 10:00 AM", course: "Advanced Mathematics", location: "Room 101", instructor: "Dr. Smith" },
-      { time: "2:00 PM - 4:00 PM", course: "Computer Science", location: "Lab 204", instructor: "Prof. Johnson" }
+      { time: "8:00 AM - 10:00 AM", course: "Software Engineering definition", location: "Room 101", instructor: "Mr. Jerferson Mwatati" },
+      { time: "2:00 PM - 4:00 PM", course: "Data Structures $ Algorithms", location: "Lab 204", instructor: "Mr. Omari Dickson" }
     ]},
     { day: "Tuesday", classes: [
-      { time: "10:00 AM - 12:00 PM", course: "English Literature", location: "Room 205", instructor: "Dr. Brown" },
-      { time: "3:00 PM - 5:00 PM", course: "Physics", location: "Lab 301", instructor: "Prof. Davis" }
+      { time: "10:00 AM - 12:00 PM", course: "Writing skills", location: "Room 205", instructor: "Mr. Baongoli Mungengo" },
+      { time: "3:00 PM - 5:00 PM", course: "Database Systems", location: "Lab 301", instructor: "Mr. Fred Mobisa" }
     ]},
     { day: "Wednesday", classes: [
-      { time: "9:00 AM - 11:00 AM", course: "Statistics", location: "Room 102", instructor: "Dr. Wilson" },
-      { time: "1:00 PM - 3:00 PM", course: "Philosophy", location: "Room 303", instructor: "Prof. Taylor" }
+      { time: "9:00 AM - 11:00 AM", course: "Discrete Mathematics", location: "Room 102", instructor: "Madam chebos" },
+      { time: "1:00 PM - 3:00 PM", course: "Computer Networks", location: "Room 303", instructor: "Dr. Roseline Nyamwamu" }
     ]},
     { day: "Thursday", classes: [
-      { time: "8:00 AM - 10:00 AM", course: "Advanced Mathematics", location: "Room 101", instructor: "Dr. Smith" },
-      { time: "2:00 PM - 4:00 PM", course: "Computer Science", location: "Lab 204", instructor: "Prof. Johnson" }
+      { time: "8:00 AM - 10:00 AM", course: "Software Engineering Definitions", location: "Room 101", instructor: "Mr. Mwatati Jerferson" },
+      { time: "2:00 PM - 4:00 PM", course: "Data Structures $ Algorithms", location: "Lab 204", instructor: "Mr. Omari Dickson" }
     ]},
     { day: "Friday", classes: [
-      { time: "10:00 AM - 12:00 PM", course: "English Literature", location: "Room 205", instructor: "Dr. Brown" },
-      { time: "3:00 PM - 5:00 PM", course: "Physics", location: "Lab 301", instructor: "Prof. Davis" }
+      { time: "10:00 AM - 12:00 PM", course: "Writing Skills", location: "Room 205", instructor: "Mr. Baongoli Mungengo" },
+      { time: "3:00 PM - 5:00 PM", course: "Database Systems", location: "Lab 301", instructor: "Mr. Fred Mobisa" }
     ]}
   ];
 
@@ -76,7 +76,7 @@ const Schedule = () => {
                       <Calendar className="h-5 w-5" />
                       Weekly Schedule
                     </CardTitle>
-                    <CardDescription>Spring 2024 Class Timetable</CardDescription>
+                    <CardDescription>Spring 2025 Class Timetable</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-6">

@@ -11,7 +11,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import Dashboard from "./pages/Dashboard";
 import StudentProfile from "./pages/StudentProfile";
 import AcademicRecords from "./pages/AcademicRecords";
-import Fees from "./pages/Fees";
+import Finance from "./pages/Fees";
 import Messages from "./pages/Messages";
 import NotFound from "./pages/NotFound";
 
@@ -31,7 +31,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/student" element={<StudentProfile />} />
           <Route path="/academics" element={<AcademicRecords />} />
-          <Route path="/fees" element={<Fees />} />
+          <Route path="/fees" element={<Finance />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

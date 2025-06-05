@@ -8,7 +8,7 @@ import { Mail, Lock, User, Phone, Eye, EyeOff } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface RegisterFormProps {
-  onRegister: (data: any) => void;
+  onRegister: (data: RegisterFormProps) => void;
 }
 
 export const RegisterForm = ({ onRegister }: RegisterFormProps) => {

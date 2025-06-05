@@ -84,7 +84,7 @@ export const StudentInfo = () => {
     {
       code: "COSC 206",
       name: "Computer Networks",
-      instructor: "Mr.Omambia",
+      instructor: "Dr. Roseline Nyamwamu",
       credits: 3,
       schedule: "Wed, Fri 3:00-4:30 PM",
       room: "Lab 301",

@@ -64,7 +64,7 @@ const Settings = () => {
                         <input 
                           type="text" 
                           className="w-full p-2 border rounded-md" 
-                          defaultValue="John Doe"
+                          defaultValue="Abigael Moraa"
                         />
                       </div>
                       <div>
@@ -72,7 +72,7 @@ const Settings = () => {
                         <input 
                           type="email" 
                           className="w-full p-2 border rounded-md" 
-                          defaultValue="john.doe@email.com"
+                          defaultValue="abigaelmoraa@gmail.com"
                         />
                       </div>
                       <div>
@@ -179,7 +179,7 @@ const Settings = () => {
                           type="text" 
                           className="w-full p-2 border rounded-md mb-2" 
                           placeholder="Name"
-                          defaultValue="Jane Doe"
+                          defaultValue="Anifah Machuma"
                         />
                         <input 
                           type="tel" 
@@ -194,7 +194,7 @@ const Settings = () => {
                           type="text" 
                           className="w-full p-2 border rounded-md mb-2" 
                           placeholder="Name"
-                          defaultValue="Dr. Smith"
+                          defaultValue="Duke momanyi"
                         />
                         <input 
                           type="tel" 
