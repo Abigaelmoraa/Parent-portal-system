@@ -10,7 +10,7 @@ const Login = () => {
     // Simulate successful login
     localStorage.setItem('isAuthenticated', 'true');
     localStorage.setItem('user', JSON.stringify({
-      name: 'John Doe',
+      name: 'Abigael Moraa',
       email: email
     }));
     navigate('/dashboard');
