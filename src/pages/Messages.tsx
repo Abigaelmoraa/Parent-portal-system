@@ -39,25 +39,25 @@ const Messages = () => {
     {
       id: 1,
       from: "Academic Advisor",
-      subject: "Mid-Semester Progress Review",
-      date: "March 10, 2024",
-      preview: "Your child is performing well in most subjects. However, we recommend additional support in Mathematics...",
+      subject: "Progress Review",
+      date: "March 10, 2025",
+      preview: "Your child is performing well in her courses. However, we encourage more efforts.",
       unread: true
     },
     {
       id: 2,
       from: "Finance Office",
       subject: "Fee Payment Reminder",
-      date: "March 8, 2024",
-      preview: "This is a friendly reminder that the next semester fee payment is due on March 15, 2024...",
+      date: "March 8, 2025",
+      preview: "This is a friendly reminder that the next semester fee payment is due on March 15, 2025...",
       unread: false
     },
     {
       id: 3,
       from: "Dean's Office",
       subject: "Parent-Teacher Conference",
-      date: "March 5, 2024",
-      preview: "We are pleased to invite you to the upcoming parent-teacher conference scheduled for March 25, 2024...",
+      date: "March 5, 2025",
+      preview: "We are pleased to invite you to the upcoming parent-teacher conference  online scheduled for March 25, 2024 the link will be shared on the day of the conference...",
       unread: false
     }
   ];
@@ -83,7 +83,7 @@ const Messages = () => {
                         <MessageSquare className="h-5 w-5" />
                         Recent Messages
                       </CardTitle>
-                      <CardDescription>Communications from UEAB staff</CardDescription>
+                      <CardDescription>Communications from UEAB faculty</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <div className="space-y-4">
@@ -118,7 +118,7 @@ const Messages = () => {
                         <Send className="h-5 w-5" />
                         Send Message
                       </CardTitle>
-                      <CardDescription>Contact UEAB staff or administrators</CardDescription>
+                      <CardDescription>Contact UEAB faculty or administrators</CardDescription>
                     </CardHeader>
                     <CardContent className="space-y-4">
                       <div>

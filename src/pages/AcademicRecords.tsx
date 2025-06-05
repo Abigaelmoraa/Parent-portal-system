@@ -36,20 +36,20 @@ const AcademicRecords = () => {
 UNIVERSITY OF EASTERN AFRICA, BARATON
 OFFICIAL TRANSCRIPT
 
-Student Name: ${user?.name || 'John Doe'}
-Student ID: 2021/BSC/CS/001
-Program: Bachelor of Science in Computer Science
+Student Name: ${user?.name || 'Abigael Moraa'}
+Student ID: SMOMMO2211
+Program: Bachelor of Science in Software Engineering
 Academic Year: 2021-2024
 
 ACADEMIC RECORD:
 
-SPRING 2024:
-- Advanced Mathematics (MATH 301): A (3 credits)
-- Computer Science Fundamentals (CS 201): B+ (4 credits)
-- English Literature (ENG 202): A- (3 credits)
-- Physics (PHYS 101): B (3 credits)
-- Statistics (STAT 205): A (3 credits)
-- Philosophy (PHIL 101): B+ (2 credits)
+SPRING 2025:
+- Software Engineering Definitions (COSC 301): A (3 credits)
+- Data Structures $ algorithms (COSC 201): B+ (3 credits)
+- Writing Skills(ENG 105): A- (3 credits)
+- Database Systems(INSY 101): B (3 credits)
+- Discrete Mathematics(MATH 205): A (3 credits)
+- Computer Networks (INSY 249): B+ (3 credits)
 
 Current GPA: 3.7
 Total Credit Hours: 18
@@ -98,7 +98,7 @@ Date of Issue: ${new Date().toLocaleDateString()}
                       <TrendingUp className="h-5 w-5" />
                       Current Semester Performance
                     </CardTitle>
-                    <CardDescription>Academic performance for Spring 2024</CardDescription>
+                    <CardDescription>Academic performance for Spring 2025</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -128,12 +128,12 @@ Date of Issue: ${new Date().toLocaleDateString()}
                   <CardContent>
                     <div className="space-y-3">
                       {[
-                        { course: "Advanced Mathematics", code: "MATH 301", grade: "A", credits: 3 },
-                        { course: "Computer Science Fundamentals", code: "CS 201", grade: "B+", credits: 4 },
-                        { course: "English Literature", code: "ENG 202", grade: "A-", credits: 3 },
-                        { course: "Physics", code: "PHYS 101", grade: "B", credits: 3 },
-                        { course: "Statistics", code: "STAT 205", grade: "A", credits: 3 },
-                        { course: "Philosophy", code: "PHIL 101", grade: "B+", credits: 2 }
+                        { course: "Software Engineering Definition", code: "COSC301", grade: "A", credits: 3 },
+                        { course: "Data Structures $ Algorithms", code: "COSC 201", grade: "B+", credits: 3 },
+                        { course: "Writing skills", code: "ENG 105", grade: "A-", credits: 3 },
+                        { course: "Database Management", code: " INSY 101", grade: "B", credits: 3 },
+                        { course: "Discrete Mathematics", code: "MATH205", grade: "A", credits: 3 },
+                        { course: "Computer Networks", code: "INSY 249", grade: "B+", credits: 3 }
                       ].map((course, index) => (
                         <div key={index} className="flex justify-between items-center p-3 border rounded-lg">
                           <div>
