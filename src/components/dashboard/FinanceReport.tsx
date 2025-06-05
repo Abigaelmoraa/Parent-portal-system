@@ -5,16 +5,16 @@ import { DollarSign, CreditCard, AlertCircle, CheckCircle } from "lucide-react";
 
 export const FinanceReport = () => {
   const financeData = {
-    totalFees: 180000,
-    paidAmount: 135000,
-    pendingAmount: 45000,
-    nextDueDate: "March 15, 2024",
-    scholarshipAmount: 25000,
+    totalFees: 25000,
+    paidAmount: 20000,
+    pendingAmount: 5000,
+    nextDueDate: "March 15, 2025",
+    scholarshipAmount:5000,
     transactions: [
-      { date: "2024-01-15", description: "Semester Fees Payment", amount: 75000, status: "paid" },
-      { date: "2024-01-10", description: "Library Fees", amount: 2500, status: "paid" },
-      { date: "2023-12-20", description: "Registration Fees", amount: 5000, status: "paid" },
-      { date: "2023-12-15", description: "Tuition Fees", amount: 52500, status: "paid" }
+      { date: "2025-01-15", description: "Semester Fees Payment", amount: 12000, status: "paid" },
+      { date: "2025-01-10", description: "Library Fees", amount: 4000, status: "paid" },
+      { date: "2024-12-20", description: "Registration Fees", amount: 4000, status: "paid" },
+      { date: "2025-12-15", description: "Tuition Fees", amount: 5000, status: "unpaid" }
     ]
   };
 

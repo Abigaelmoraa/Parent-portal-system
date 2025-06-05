@@ -64,7 +64,7 @@ export const RegisterForm = ({ onRegister }: RegisterFormProps) => {
                 <Input
                   id="firstName"
                   name="firstName"
-                  placeholder="John"
+                  placeholder="Abigael"
                   value={formData.firstName}
                   onChange={handleChange}
                   className="pl-10"
@@ -80,7 +80,7 @@ export const RegisterForm = ({ onRegister }: RegisterFormProps) => {
                 <Input
                   id="lastName"
                   name="lastName"
-                  placeholder="Doe"
+                  placeholder="Moraa"
                   value={formData.lastName}
                   onChange={handleChange}
                   className="pl-10"
@@ -98,7 +98,7 @@ export const RegisterForm = ({ onRegister }: RegisterFormProps) => {
                 id="email"
                 name="email"
                 type="email"
-                placeholder="parent@example.com"
+                placeholder="username/email"
                 value={formData.email}
                 onChange={handleChange}
                 className="pl-10"
@@ -130,7 +130,7 @@ export const RegisterForm = ({ onRegister }: RegisterFormProps) => {
               <Input
                 id="studentId"
                 name="studentId"
-                placeholder="UEAB/001/2024"
+                placeholder="SMOMMO2211"
                 value={formData.studentId}
                 onChange={handleChange}
                 className="pl-10"

@@ -7,67 +7,66 @@ import { User, BookOpen, GraduationCap, Mail, Phone, MapPin, Heart, FileText } f
 
 export const StudentInfo = () => {
   const studentData = {
-    name: "Jane Doe",
-    studentId: "UEAB/2023/CS/001",
-    dateOfBirth: "March 15, 2005",
+    name: "Abigael Moraa",
+    studentId: "SMOMMO2211",
+    dateOfBirth: "March 15, 2003",
     nationality: "Kenyan",
     idNumber: "12345678",
     gender: "Female",
-    bloodType: "O+",
-    program: "Bachelor of Computer Science",
-    year: "2nd Year",
+    bloodType: "B+",
+    program: "Bachelor of Sciece in Software Engineering",
+    year: "4th Year",
     semester: "Semester 2",
-    advisor: "Dr. Sarah Johnson",
-    enrollmentDate: "September 2023",
-    expectedGraduation: "June 2027",
-    email: "jane.doe@student.ueab.ac.ke",
-    personalEmail: "jane.doe@gmail.com",
+    advisor: "Dr. Roseline Nyamwamu",
+    enrollmentDate: "September 2021",
+    expectedGraduation: "August 2025",
+    email: "smommo2211.ueab.ac.ke",
+    personalEmail: "abigael.moraa@gmail.com",
     phone: "+254 712 345 678",
-    address: "123 University Avenue, Nairobi, Kenya",
-    emergencyContact: "John Doe (Father) - +254 711 234 567",
-    emergencyContact2: "Mary Doe (Mother) - +254 722 345 678",
-    guardianEmail: "john.doe@email.com",
+    address: "p.o. box 69, Sotik.",
+    emergencyContact: "Duke momanyi (Father) - +254 711 234 567",
+    emergencyContact2: "Anifah Machuma (Mother) - +254 722 345 678",
+    guardianEmail: "anifahmachuma@email.com",
     gpa: "3.7",
-    creditsCompleted: "45",
-    totalCredits: "120",
-    hostel: "Hostel Block A, Room 204",
-    mealPlan: "Full Board",
+    creditsCompleted: "143",
+    totalCredits: "167",
+    hostel: "off campus",
     medicalConditions: "None",
-    allergies: "Peanuts"
+    allergies: "Proteins"
   };
 
   const currentCourses = [
     {
-      code: "CS201",
+      code: "COSC 201",
       name: "Data Structures and Algorithms",
-      instructor: "Dr. Michael Smith",
+      instructor: "Mr. Omari dickson",
       credits: 3,
       schedule: "Mon, Wed, Fri 10:00-11:00 AM",
       room: "Lab 201",
       grade: "A-"
     },
     {
-      code: "CS202",
+      code: "INSY 202",
       name: "Database Systems",
-      instructor: "Prof. Alice Johnson",
+      instructor: "Mr. Mobisa Fred",
       credits: 3,
       schedule: "Tue, Thu 2:00-3:30 PM",
       room: "Room 305",
       grade: "B+"
     },
     {
-      code: "MTH203",
+      code: "MATH203",
       name: "Discrete Mathematics",
-      instructor: "Dr. Robert Brown",
+      instructor: "Madam Chebos",
       credits: 3,
       schedule: "Mon, Wed 11:00-12:30 PM",
       room: "Room 102",
       grade: "A"
     },
     {
-      code: "CS204",
-      name: "Software Engineering",
-      instructor: "Dr. Emily Davis",
+      code: "COSC 204",
+      name: "Software Engineering definition",
+      instructor: "Mr. Mwatati Jerferson",
       credits: 4,
       schedule: "Tue, Thu 9:00-11:00 AM",
       room: "Lab 150",
@@ -75,17 +74,17 @@ export const StudentInfo = () => {
     },
     {
       code: "ENG205",
-      name: "Technical Writing",
-      instructor: "Prof. James Wilson",
+      name: "Writing skills",
+      instructor: "Mr.Baongoli Mungengo",
       credits: 2,
       schedule: "Fri 2:00-4:00 PM",
       room: "Room 210",
       grade: "A"
     },
     {
-      code: "CS206",
+      code: "COSC 206",
       name: "Computer Networks",
-      instructor: "Dr. Sarah Kim",
+      instructor: "Mr.Omambia",
       credits: 3,
       schedule: "Wed, Fri 3:00-4:30 PM",
       room: "Lab 301",
@@ -95,26 +94,61 @@ export const StudentInfo = () => {
 
   const academicHistory = [
     {
-      semester: "Semester 1 - 2023",
+      semester: "Semester 1 - 2021",
       gpa: "3.5",
       credits: "18",
       status: "Completed",
       courses: 6
     },
     {
-      semester: "Semester 2 - 2024",
+      semester: "Semester 2 - 2022",
       gpa: "3.7",
       credits: "18",
-      status: "In Progress",
+      status: "Completed",
       courses: 6
     },
     {
-      semester: "Semester 3 - 2024",
-      gpa: "-",
-      credits: "21",
-      status: "Upcoming",
+      semester: "Semester 1- 2022",
+      gpa: "3.6",
+      credits: "18",
+      status: "Completed",
       courses: 7
+    },
+    { semester: "Semester 2 - 2023",
+      gpa: "3.3",
+      credits: "18",
+      status: "Completed",
+      courses: 7
+    },
+    {
+      semester: "Semester 1 - 2023",
+      gpa: "3.2",
+      credits: "18",
+      status: "Completed",
+      courses: 7
+    },
+    {
+      semester: "Semester 2 - 2024",
+      gpa: "3.1",
+      credits: "18",
+      status: "Completed",
+      courses: 7
+    },
+    {
+      semester: "Semester 1 - 2024",
+      gpa: "3.33",
+      credits: "21",
+      status: "Completed",
+      courses: 7
+    },
+    {
+      semester: "Semester 2 - 2025",
+      gpa: "-",
+      credits: "18",
+      status: "In progress",
+      courses: 6
     }
+
   ];
 
   return (
@@ -279,10 +313,6 @@ export const StudentInfo = () => {
                       <div>
                         <label className="text-sm font-medium text-gray-600">Hostel Assignment</label>
                         <p className="text-sm">{studentData.hostel}</p>
-                      </div>
-                      <div>
-                        <label className="text-sm font-medium text-gray-600">Meal Plan</label>
-                        <p className="text-sm">{studentData.mealPlan}</p>
                       </div>
                     </div>
                   </div>

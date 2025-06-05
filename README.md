@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
 
-## Project info
+# Project Title: Ueab Parent Portal
 
-**URL**: https://lovable.dev/projects/132943d2-904f-471f-9434-eda6bfe53492
+## Description
+Ueab Parent Connect is a web application designed to facilitate communication between parents and the school. It provides a platform for parents to stay informed about school activities, events, and important announcements including their child's progress.
 
-## How can I edit this code?
+## Features
+- **User -Friendly Interface**: The application is designed with a clean and intuitive interface for easy navigation.
+- **Responsive Design**: The layout adapts to various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
+- **Real-Time Updates**: Parents receive real-time notifications about school events and announcements.
 
-There are several ways of editing your application.
+## Installation
+To set up the project locally, follow these steps:
 
-**Use Lovable**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abigaelmoraa/Parent-portal-system.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ueab-parent-connect
+   ```
+3. Open the `index.html` file in your web browser.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/132943d2-904f-471f-9434-eda6bfe53492) and start prompting.
+## Usage
+- Open the application in your web browser.
+- Navigate through the different sections to explore features and information.
+- Stay updated with the latest announcements and events.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+## Technologies Used
 - React
-- shadcn-ui
+- HTML5
+- CSS3
+- JavaScript
 - Tailwind CSS
 
-## How can I deploy this project?
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
 
-Simply open [Lovable](https://lovable.dev/projects/132943d2-904f-471f-9434-eda6bfe53492) and click on Share -> Publish.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a pull request.
 
-## Can I connect a custom domain to my Lovable project?
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Yes, you can!
+## Contact
+For any inquiries, please contact:
+- **Email**: [abigaelmoraa@gmail.com](mailto:abigaelmoraa@gmail.com)
+- **GitHub**: [Abigaelmoraa](https://github.com/Abigaelmoraa)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---

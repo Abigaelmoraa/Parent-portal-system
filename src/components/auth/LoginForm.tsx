@@ -30,7 +30,7 @@ export const LoginForm = ({ onLogin }: LoginFormProps) => {
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader className="space-y-1">
-        <CardTitle className="text-2xl font-bold text-center">Welcome Back</CardTitle>
+        <CardTitle className="text-2xl font-bold text-center">Welcome </CardTitle>
         <CardDescription className="text-center">
           Sign in to access your UEAB Parent Portal
         </CardDescription>
@@ -44,7 +44,7 @@ export const LoginForm = ({ onLogin }: LoginFormProps) => {
               <Input
                 id="email"
                 type="email"
-                placeholder="parent@example.com"
+                placeholder="username/email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="pl-10"

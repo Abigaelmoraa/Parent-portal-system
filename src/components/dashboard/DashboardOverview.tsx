@@ -26,8 +26,8 @@ export const DashboardOverview = () => {
     },
     {
       title: "Next Payment",
-      value: "KSh 45,000",
-      description: "Due March 15, 2024",
+      value: "KSh 5,000",
+      description: "Due March 15, 2025",
       icon: DollarSign,
       color: "text-orange-600"
     },
@@ -72,6 +72,7 @@ export const DashboardOverview = () => {
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="student">Student Info</TabsTrigger>
           <TabsTrigger value="attendance">Attendance</TabsTrigger>
+          <TabsTrigger value="academic records">Academic Records</TabsTrigger>
           <TabsTrigger value="finance">Finance</TabsTrigger>
           <TabsTrigger value="notifications">Notifications</TabsTrigger>
         </TabsList>
@@ -86,7 +87,7 @@ export const DashboardOverview = () => {
               <CardContent className="space-y-4">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h4 className="font-semibold">Mid-Semester Examinations</h4>
-                  <p className="text-sm text-gray-600">Exams will begin on March 20, 2024. Please ensure all fees are paid.</p>
+                  <p className="text-sm text-gray-600">Exams will begin on March 20, 2025. Please ensure all fees are paid.</p>
                   <p className="text-xs text-gray-500">2 days ago</p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">

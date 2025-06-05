@@ -9,16 +9,16 @@ export const NotificationCenter = () => {
       id: 1,
       type: "urgent",
       title: "Fee Payment Reminder",
-      message: "Your next semester fee payment of KSh 45,000 is due on March 15, 2024.",
-      date: "2024-02-28",
+      message: "Your next semester fee payment of KSh 5,000 is due on March 15, 2025.",
+      date: "2025-02-28",
       read: false
     },
     {
       id: 2,
       type: "info",
       title: "Mid-Semester Examinations",
-      message: "Mid-semester exams will begin on March 20, 2024. Exam timetable is now available.",
-      date: "2024-02-26",
+      message: "Mid-semester exams will begin on March 20, 2025. Exam timetable is now available.",
+      date: "2025-02-26",
       read: false
     },
     {
@@ -26,7 +26,7 @@ export const NotificationCenter = () => {
       type: "success",
       title: "Academic Performance",
       message: "Congratulations! Your ward achieved a GPA of 3.7 this semester.",
-      date: "2024-02-25",
+      date: "2025-02-25",
       read: true
     },
     {
@@ -34,7 +34,7 @@ export const NotificationCenter = () => {
       type: "warning",
       title: "Attendance Alert",
       message: "Attendance for Computer Networks is below 75%. Please ensure regular class attendance.",
-      date: "2024-02-24",
+      date: "2025-02-24",
       read: true
     },
     {
@@ -42,7 +42,7 @@ export const NotificationCenter = () => {
       type: "info",
       title: "Library Hours Extended",
       message: "Library will now be open 24/7 during the examination period.",
-      date: "2024-02-20",
+      date: "2025-02-20",
       read: true
     }
   ];
